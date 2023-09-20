@@ -1,0 +1,151 @@
+
+@media (max-width: 600px) {
+
+    .full-screen__title p,
+    .aboutus__title h2 {
+        font-size: 48px;
+    }
+
+    .full-screen__logo {
+        display: none;
+
+    }
+
+    .dance-ways__title {
+        font-size: 35px;
+    }
+
+
+    .hiphop .item-info,
+    .highhills .item-info,
+    .dancehall .item-info,
+    .jazzfunk .item-info,
+    .contemporary .item-info,
+    .experimental .item-info {
+        display: none;
+    }
+
+    .hiphop .hiphop__title,
+    .highhills .highhills__title,
+    .dancehall .dancehall__title,
+    .jazzfunk .jazzfunk__title,
+    .contemporary .contemporary__title,
+    .experimental .experimental__title  {
+        font-size: 25px;
+    }
+
+    .hiphop__slider .hiphop__item img,
+    .highhills__slider .highhills__item img, 
+    .dancehall__slider .dancehall__item img,
+    .jazzfunk__slider .jazzfunk__item img
+     {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+
+    .contemporary__slider .contemporary__item img,
+    .experimental__slider .experimental__item img {
+        width: 70%;
+        padding: 0 10px;
+        margin: 0;
+    }
+
+
+    /* feedback */
+
+    .feedback .feedback-content {
+        display: grid;
+        grid-template-rows: repeat(5,300px);
+        grid-template-columns: repeat(2, minmax(100px, 250px));
+        gap: 10px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .clothes-big,
+    .clothes-mid{
+        display: none;
+    }
+    
+    .clothes .clothes-content {
+        display: grid;
+        gap: 15px;
+        grid-template-rows: repeat(3, 250px);
+        grid-template-columns: repeat(2, minmax(100px, 200px));
+        justify-content: center;
+        padding: 20px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .grid-item-big {
+        grid-row: span 2;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    .item-info .item__title {
+        font-size: 24px;
+    }
+
+    .item__change-info .item__dancetype,
+    .item__change-info .item__place,
+    .item__change-info .item__time {
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 800px) {
+        
+    .tabs__item span {
+        display: block;
+        width: 53px;
+        text-align: center;
+        white-space: nowrap;
+        text-align: center;
+        overflow: hidden;
+        font-size: 14px;
+        text-overflow: ellipsis;
+    }
+
+    .tabs__block__btn {
+        display: inline-block;
+        padding: 10px 20px;
+
+    }
+}
+
+@media (max-width: 900px) {
+    .footer .footer__content__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer .foonter__contacts__list {
+        list-style-type: none;
+    }
+    
+    .footer .foonter__contacts__li {
+        margin-bottom: 15px;
+    }
+
+    .footer .foonter__contacts__li a {
+
+
+    }
+    .footer .footer__content__contacts {
+        text-align: center;
+    }
+
+    .footer .footer__map__title {
+        text-align: center;
+    }
+
+    .full-screen .video-bg {
+        display: none;
+    }
+}
